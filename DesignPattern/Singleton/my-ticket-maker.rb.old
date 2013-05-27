@@ -1,0 +1,14 @@
+class TicketMaker
+  def self.initialize
+    @ticket_id = 1000
+  end
+  def get_next_ticket_number
+    @ticket_id += 1
+  end
+end
+
+p instance1 = TicketMaker.initialize
+p instance2 = TicketMaker.initialize
+p instance1.get_next_ticket_number
+p instance2.get_next_ticket_number
+
