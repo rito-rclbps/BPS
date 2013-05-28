@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class TextBuilder < Builder
   def initialize
     @result=String.new

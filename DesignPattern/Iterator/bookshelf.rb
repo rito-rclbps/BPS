@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class BookShelf < Aggregate
   def initialize(maxsize)
     @books=Array.new(maxsize)

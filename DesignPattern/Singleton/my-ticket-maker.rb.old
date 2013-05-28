@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class TicketMaker
   def self.initialize
     @ticket_id = 1000

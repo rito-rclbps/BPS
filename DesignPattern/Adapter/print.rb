@@ -1,12 +1,13 @@
+# -*- encoding : utf-8 -*-
 class Print
   def initialize(adapter)
-    @adapter=adapter
+    @adapter = adapter
   end
-  def printWeak
+  def print_weak
     #p @adapter
-    @adapter.printWeak
+    @adapter.print_weak
   end
-  def printStrong
-    @adapter.printStrong
+  def print_strong
+    @adapter.print_strong
   end
 end

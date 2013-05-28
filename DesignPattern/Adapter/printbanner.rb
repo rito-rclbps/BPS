@@ -1,11 +1,12 @@
+# -*- encoding : utf-8 -*-
 class PrintBanner < Banner
   def initialize(string)
-    @string=string
+    @string = string
   end
-  def printWeak
-    showWithParen(@string)
+  def print_weak
+    show_with_paren(@string)
   end
-  def printStrong
-    showWithAster(@string)
+  def print_strong
+    show_with_aster(@string)
   end
 end

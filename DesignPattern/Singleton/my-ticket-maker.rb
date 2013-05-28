@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class TicketMaker
   private_class_method :new #publicだったnewをprivateなクラスメソッドにする
 

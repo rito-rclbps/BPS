@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require './iterator.rb'
 require './aggregate.rb'
 require './book.rb'

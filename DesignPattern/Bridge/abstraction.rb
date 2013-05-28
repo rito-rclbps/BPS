@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class Display
   def initialize(implement)
     @impl=implement

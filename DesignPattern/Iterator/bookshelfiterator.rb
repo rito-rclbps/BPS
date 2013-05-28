@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class BookShelfIterator < Iterator
   def initialize(bookshelf)
     @index=0

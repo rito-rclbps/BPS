@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class Director
   def initialize(concrete_builder)
     @builder=concrete_builder

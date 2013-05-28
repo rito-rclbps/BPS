@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require './implementor.rb'
 require './abstraction.rb'
 

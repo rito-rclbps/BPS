@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class Factory
   def create(owner)
     product=createProduct(owner)
