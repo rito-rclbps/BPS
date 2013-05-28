@@ -2,8 +2,7 @@
 class TicketMaker
   private_class_method :new #publicだったnewをprivateなクラスメソッドにする
 
-  @@unique_instance = new
-
+  @@unique_instance
   def initialize
     p "initialize method loaded."
     @ticket_id = 1000
@@ -14,6 +13,7 @@ class TicketMaker
   def get_next_ticket_number
     @ticket_id += 1
   end
+  @@unique_instance = new
 end
 
 p instance1 = TicketMaker.instance #initializeが呼ばれない
