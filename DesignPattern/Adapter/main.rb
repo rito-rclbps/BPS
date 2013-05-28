@@ -3,6 +3,6 @@ require './banner.rb'      #Adaptee
 require './printbanner.rb' #Adapter
 require './print.rb'       #Target
 
-p = Print.new(PrintBanner.new('Hello'))
-p.print_weak
-p.print_strong
+banner = Print.new(PrintBanner.new('Hello'))
+banner.print_weak
+banner.print_strong
