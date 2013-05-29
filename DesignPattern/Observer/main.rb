@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require './observer.rb'
 require './generator.rb'
 

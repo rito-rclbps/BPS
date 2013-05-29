@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class NumberGenerator
   def initialize
     @observers = Array.new
