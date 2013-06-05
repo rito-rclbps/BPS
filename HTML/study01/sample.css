@@ -1,0 +1,9 @@
+.menu a {
+	margin: -2.4px
+}
+.question {
+	list-style-image: url("sample_25.gif")
+}
+.answer {
+	list-style-image: url("sample_28.gif")
+}
