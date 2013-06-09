@@ -14,14 +14,15 @@ class Parse
   end
   def self.get_book_list
     @@page_list
+    # { 'rito' => 'person332.html' } # debug時はこれを返す。
   end
   def self.make_book_list(body)
     book_list1 = [] # 公開中
     book_list2 = [] # 作業中
     body.each_line do |line|
-      if line =~/<li><a href=".+">(.+)<\/a>.+<\/li>/
+      if line =~/<li><a href=".+">(.+)<\/a>.+作品ID.+<\/li>/
         book_list1 << $1
-      elsif line =~ /<li>(.+)\t<\/li>/
+      elsif line =~ /<li>(.+)　（.*作品ID.+<\/li>/
         book_list2 << $1
       end
     end
