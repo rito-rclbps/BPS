@@ -1,0 +1,72 @@
+body{
+	margin: 2em;
+	margin-top: 0em;
+	border-top: solid 3em #07d;
+	line-height: 1.5em;
+}
+nav > img{
+	float: left;
+}
+article{
+	background-color: whitesmoke;
+}
+article .title{
+	font-size: 1.5em;
+}
+article .body{
+	font-size: 1em;
+}
+.form{
+	margin-left: 30px;
+}
+.form > img{
+	float: right;
+}
+.form_box{
+	background-color: lightgray;
+}
+.form_box .form_head, .caption{
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.jobs{
+	width: 940px;
+}
+.jobs_left table{
+	float: left;
+	width: 600px;
+}
+.jobs_left table th{
+	text-align: left;
+}
+.jobs_right table{
+	float: right;
+	width: 300px;
+}
+.way{
+	clear: both;
+}
+.questions table{
+	padding: 20px;
+}
+.questions table td p{
+	margin: 0px;
+	padding: 0.5em 0px 0.5em 38px;
+}
+.questions .question{
+	background: url(questions01.gif) left no-repeat;
+}
+.questions .answer{
+	background: url(questions02.gif) left no-repeat;
+}
+footer img{
+	float: left
+}
+.menu li{
+	display: inline;
+	border-right: solid 1px #111;
+	padding: 0em 1em;
+}
+.menu li.last{
+	border-right: none;
+}
